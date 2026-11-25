@@ -7,3 +7,4 @@ gunicorn>=22.0
 PyMySQL>=1.1,<2
 cryptography>=42
 dj-database-url>=2.2,<3
+psycopg2-binary==2.9.10
