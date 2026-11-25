@@ -1,0 +1,29 @@
+# ---- Python / Django ----
+__pycache__/
+*.py[cod]
+*.sqlite3
+backend-django/staticfiles/
+backend-django/media/
+.venv/
+venv/
+.pytest_cache/
+
+# ---- Node ----
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# ---- Secrets (never commit these) ----
+.env
+.env.*
+!.env.example
+*.pem
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Vercel ----
+.vercel

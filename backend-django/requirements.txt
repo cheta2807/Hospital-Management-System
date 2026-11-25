@@ -1,0 +1,9 @@
+Django>=5.1,<5.2
+djangorestframework>=3.15,<3.16
+djangorestframework-simplejwt>=5.3,<5.4
+django-cors-headers>=4.4,<5
+whitenoise>=6.7,<7
+gunicorn>=22.0
+PyMySQL>=1.1,<2
+cryptography>=42
+dj-database-url>=2.2,<3
